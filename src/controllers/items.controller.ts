@@ -29,6 +29,8 @@ export class ItemController {
             const result = await this.service.post(item); 
             return rep.status(201).send(result);
         }catch(err){
+            if(err instanceof HttpError)
+                return rep.status(err.statusCode).send({error: err.message})
             rep.status(500).send({error:'Failed to create item' })
         }
     }

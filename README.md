@@ -38,22 +38,23 @@ src/
 ├── controllers/
 │   ├── item.controller.ts
 │   └── ...
-├── services/
-│   ├── item.service.ts
-│   └── ...
-├── models/
-│   ├── items.model.ts
-│   └── ...
-├── routes/
-│   ├── item.routes.ts
-│   └── ...
 ├── data/
 │   └── database-memory.ts
 ├── errors/
 │   ├── http-error.ts
 │   ├── http-error-messages.ts
 │   └── http-status-codes.ts
-└── main.ts
+├── models/
+│   ├── items.model.ts
+│   └── ...
+├── routes/
+│   ├── item.routes.ts
+│   └── ...
+├── services/
+│   ├── item.service.ts
+│   └── ...
+├── app.ts
+└── server.ts
 ```
 
 ### 📃 Code Structure

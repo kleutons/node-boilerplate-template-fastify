@@ -1,6 +1,5 @@
-import { FastifyRequest } from "fastify";
 import { DatabaseMemory } from "../data/database-memory";
-import { ItemCreateModel, ItemIdModel, ItemModel } from "../models/items.model";
+import { ItemCreateModel, ItemModel } from "../models/items.model";
 import { HttpStatusCodes } from "../errors/http-status-codes";
 import { HttpError } from "../errors/http-error";
 

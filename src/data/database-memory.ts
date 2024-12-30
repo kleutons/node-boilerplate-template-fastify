@@ -13,7 +13,7 @@ export class DatabaseMemory {
 
         if (!search) { return itemsArray; }
 
-         // Filtrar itens pelo nome
+         // Filtrar itens by nome
          return itemsArray.filter(item => item.name && item.name.toLowerCase().includes(search.toLowerCase()));
     }
 
