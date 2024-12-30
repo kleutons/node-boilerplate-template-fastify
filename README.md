@@ -27,6 +27,10 @@ This code source was developed with the following items:
 - [tsx][tsx-npm] - TypeScript Execute (tsx): Enable Node.js to run TypeScript
 - [tsup][tsup-npm] - Bundle your TypeScript library with no config, powered by esbuild
 - [@types/node][@types/node-npm] - type definitions for node
+- [fastify][fastify-npm] - Fast and low overhead web framework, for Node.js
+- [@fastify/cors][@fastify/cors-npm] - Fastify CORS
+
+
 
 ## 🧩 Layered Project Structure
 ```
